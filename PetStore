@@ -1,0 +1,11 @@
+# SQL
+SQL Portfolio
+INSERT INTO Petstore VALUES 
+(1, "Boxer", 450),
+(2, "American Bulldog", 150),
+(3, "Lab", 300),
+(4, "Golden Doodle", 2000),
+(5, "German Shepard", 1500);
+
+SELECT * FROM Petstore ORDER BY price;
+SELECT AVG(price) FROM Petstore;
